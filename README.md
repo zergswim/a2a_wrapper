@@ -33,12 +33,9 @@ async def main():
     agent_name = "test_agent"
     agent_model = "gemini-2.5-flash-preview-05-20"
     agent_instruction = "테스트 호출 결과를 반환합니다."
-    # (a2a 연결을 위한) 다른 에이전트 url
     agent_list = [
         # "http://localhost:8001/",
-        # "http://localhost:8002/",
-        # "http://localhost:8003/"
-    ]
+    ] # (a2a 연결을 위한) 다른 에이전트 url
 
     agent_card = AgentCard(
         name=agent_name,
