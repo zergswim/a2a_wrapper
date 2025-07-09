@@ -4,7 +4,7 @@
 
 * API 키 설정 복사
 ```bash
-cy .env_sample .env
+cp .env_sample .env
 ```
 
 * 필수 패키지 설치
